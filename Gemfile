@@ -39,3 +39,8 @@ end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
+
+# Fatest serializers for Rails applications.
+# AMS:  [250 rows] = 138.71 ms
+# Fast: [250 rows] = 3.01 ms
+gem "fast_jsonapi", "~> 1.5"
