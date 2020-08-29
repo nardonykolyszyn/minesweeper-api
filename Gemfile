@@ -41,3 +41,6 @@ end
 # AMS:  [250 rows] = 138.71 ms
 # Fast: [250 rows] = 3.01 ms
 gem "fast_jsonapi", "~> 1.5"
+
+gem "mongoid", "~> 7.1"
+gem "bson_ext", "~> 1.5"
